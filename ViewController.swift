@@ -4,7 +4,7 @@
 //
 //  Created by John Roquemore on 8/8/17.
 //  Copyright © 2017 John Roquemore. All rights reserved.
-//
+//  Sent project to GitHub on 8/14/2017 7:50 PM 
 
 import UIKit
 
