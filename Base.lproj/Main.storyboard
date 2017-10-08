@@ -76,7 +76,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKd-bu-Z6c">
-                                <rect key="frame" x="20" y="1074" width="794" height="30"/>
+                                <rect key="frame" x="20" y="310" width="794" height="30"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
                                     <action selector="clearTextInputField:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NGx-Ik-R6h"/>
@@ -99,7 +99,6 @@
                             <constraint firstItem="maa-BW-jNQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HgD-Y9-VWv"/>
                             <constraint firstItem="5TJ-L7-saM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1 : 2" id="J4b-QE-Ebr"/>
                             <constraint firstItem="Cyt-Td-jBa" firstAttribute="width" secondItem="5TJ-L7-saM" secondAttribute="width" id="JpP-ps-Y57"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TKd-bu-Z6c" secondAttribute="bottom" constant="8" symbolic="YES" id="KSd-G1-vOL"/>
                             <constraint firstItem="5TJ-L7-saM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Q8c-EM-PYG"/>
                             <constraint firstItem="maa-BW-jNQ" firstAttribute="width" secondItem="5TJ-L7-saM" secondAttribute="width" id="QDD-ty-nDQ"/>
                             <constraint firstItem="TKd-bu-Z6c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="QkR-tR-4Tg"/>
@@ -115,6 +114,7 @@
                             <constraint firstItem="34p-5S-OIQ" firstAttribute="baseline" secondItem="Cyt-Td-jBa" secondAttribute="baseline" id="lRH-9O-jwQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wqM-Bx-uMX" secondAttribute="trailing" id="lru-XC-dAo"/>
                             <constraint firstItem="Cyt-Td-jBa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="thq-NH-08u"/>
+                            <constraint firstItem="TKd-bu-Z6c" firstAttribute="top" secondItem="MRu-gh-9re" secondAttribute="bottom" constant="8" symbolic="YES" id="wwK-MX-Lyc"/>
                         </constraints>
                     </view>
                     <connections>
