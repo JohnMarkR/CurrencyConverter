@@ -22,12 +22,6 @@ class ViewController: UIViewController, UITextFieldDelegate
         inputTextField.delegate = self
         
     }
-
-    override func didReceiveMemoryWarning()
-    {
-        super.didReceiveMemoryWarning()
-        
-    }
     
     // Called when 'return' key is pressed
     func textFieldShouldReturn(_ textField: UITextField) -> Bool
